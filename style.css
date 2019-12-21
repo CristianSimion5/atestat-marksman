@@ -1,0 +1,76 @@
+body {
+	margin: 0;
+	font-family: Trebuchet MS;
+}
+
+#text {
+	height: 1300px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.1));
+}
+
+.header {
+	background-color: #efefef;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+img.resize {
+    width: 200px;
+    height: 120px;
+	float: left;
+}
+
+.main {
+	width: 70%;
+	margin: 0% 15%;
+	background-color: white;
+}
+
+ul.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #fafafa;
+	overflow: hidden;
+}
+
+.menu li {
+	float: left;
+	text-align: right;
+}
+
+.menu li:last-child {
+	float: right;
+}
+
+.menu li a{
+	display: block;
+	padding: 14px 16px;
+	color: #606060;
+	text-decoration: none;
+	margin: auto;
+	border-bottom: 3px solid #fafafa;
+}
+
+.menu li:not(.active) a:hover {
+	color: black;
+}
+
+.menu li.active a{
+	border-bottom: 3px solid #38b4bc;
+	color: #38b4bc;
+	font-weight: bold;
+}
+
+ul.instructions {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	line-height: 30px
+}
